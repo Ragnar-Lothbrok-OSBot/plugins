@@ -147,7 +147,7 @@ subprojects {
             doLast {
                 copy {
                     from("./build/libs/")
-                    into("C:\\Users\\Ricky\\.runelite\\externalmanager")
+                    into("../release/")
                 }
             }
         }
